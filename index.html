@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Title Tag -->
+  
 <title>GreenLeaf | Go Green with Organic & Eco-Friendly Living</title>
 
 <!-- Meta Description -->
@@ -44,7 +43,9 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
     <!-- Project start from here -->
@@ -198,18 +199,78 @@
         <!-- catg start -->
          <h3 class="lst-cls">Latest Collection</h3>
          <h1 class="sop-b-c">Shop By Category</h1>
-         <div class="category"></div>
-         <div class="category2">
+         <div class="category">
+            <div class="owl-carousel">
+                <div> <img src="Asset/Images/6-cp_categorylist.jpg" alt="Image 1"> </div>
+                <div> <img src="Asset/Images/9-cp_categorylist.jpg" alt="Image 2"> </div>
+                <div> <img src="Asset/Images/32-cp_categorylist.jpg" alt="Image 3"> </div>
+                <div> <img src="Asset/Images/33-cp_categorylist.jpg" alt="Image 4"> </div>
+                <div> <img src="Asset/Images/34-cp_categorylist.jpg" alt="Image 5"> </div>
+                <div> <img src="Asset/Images/35-cp_categorylist.jpg" alt="Image 6"> </div>
+                <div> <img src="Asset/Images/36-cp_categorylist.jpg" alt="Image 7"> </div>
+                <div> <img src="Asset/Images/37-cp_categorylist.jpg" alt="Image 8"> </div>
+                <div> <img src="Asset/Images/38-cp_categorylist.jpg" alt="Image 9"> </div>
+                <!-- Add as many slides as you like -->
+            </div>
+        </div>
+            <div class="category2">
             <div class="card2"></div>
             <div class="card2"></div>
             <div class="card2"></div>
          </div>
+         <div class="productContainer">
+            <div class="card">
+                <div class="card-upper">
+                    <img src="Asset/Images/imgi_39_roasted-freeze-mix-blue-combo-dispenser.jpg" alt="">
+                    <button>New</button>
+                    <div  id="icons">
+                       <i class="bi bi-arrows-fullscreen"></i>
+                       <i class="bi bi-heart"></i>
+                       <i class="bi bi-arrow-repeat"></i>
+                    </div>
+                    <div id="colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                </div>
+                <div class="card-lower">
+                    <b>Vegetarian</b>
+                    <h4>Roasted freeze mix blue combo dispenser </h4>
+                    <h2>$85.00</h2>
+                    <i class="bi bi-star-fill" style="margin-left: 10px;"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-upper"></div>
+                <div class="card-lower"></div>
+            </div>
+            <div class="card">
+                 <div class="card-upper"></div>
+                <div class="card-lower"></div>
+            </div>
+            <div class="card">
+                 <div class="card-upper"></div>
+                <div class="card-lower"></div>
+            </div>
+            <div class="card">
+                 <div class="card-upper"></div>
+                <div class="card-lower"></div>
+            </div>
+         </div>
+         
         <!-- catg end -->
 
          <!-- project end -->
  <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- Initialize Swiper -->
   <script src="JS/script.js"></script>
 </body>

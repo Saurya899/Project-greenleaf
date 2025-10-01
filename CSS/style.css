@@ -373,3 +373,162 @@ background-color: #E1EACC;
 {
 background-color: #EBDBCE;
 }
+
+
+/* New Products Start */
+.productContainer {
+    height: 450px;
+    width: 94%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.productContainer .card {
+    height: 100%;
+    width: 19%;
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid #c0c0c0;
+}
+
+.productContainer .card .card-upper {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productContainer .card .card-upper img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.productContainer .card .card-upper button {
+    position: absolute;
+    font-size: 12px;
+    padding: 5px 20px;
+    border-radius: 15px 0px 15px 0px;
+    border: none;
+    outline: none;
+    top: 7px;
+    left: 10px;
+}
+
+
+.productContainer .card .card-upper #colors {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   width: 50%;
+   position: absolute;
+   bottom: -10px;
+}
+.productContainer .card .card-upper #colors .color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 2px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.productContainer .card .card-upper #colors .color:nth-child(1) {
+    background-color: #FF0000;
+}
+.productContainer .card .card-upper #colors .color:nth-child(2) {
+    background-color: #32086d;
+}
+.productContainer .card .card-upper #colors .color:nth-child(3) {
+    background-color: #720548;
+}
+.productContainer .card:hover #colors .color{
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+}
+
+.productContainer .card .card-upper #icons {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    position: absolute;
+    font-size: 20px;
+    gap: 20px;
+    top: 10px;
+    visibility: hidden;
+}
+
+.productContainer .card:hover #icons {
+    right: 0px;
+    transform: translateX(-10px);
+    transition: 0.3s ease-in-out;
+    visibility: visible;
+}
+
+.productContainer .card .card-upper #icons i {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+}
+
+.productContainer .card .card-lower {
+    height: 50%;
+    width: 100%;
+}
+
+.productContainer .card .card-lower b {
+    color: grey;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.productContainer .card .card-lower h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.productContainer .card .card-lower h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #2F6B51;
+}
+
+.productContainer .card .card-lower button {
+    padding: 15px 30px;
+    width: 90%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    color: #2F6B51;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.productContainer .card .card-lower button:hover {
+    background-color: #2F6B51;
+    color: white;
+    transition: 0.3s;
+}
+
+.productContainer .card .card-lower i {
+    font-size: 18px;
+    color: goldenrod;
+}
+
+.productContainer .card:hover #Addcartbtn {
+    background-color: #2F6B51;
+    color: white;
+    transition: 0.3s;
+}
