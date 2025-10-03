@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand",sans-serif;
+}
+/* heading  */
+.heading
+{
+    height: 100px;
+    width: 100%;
+    background-color: #F7F7F7;
+   display: flex;
+   align-items: center;
+}
+.heading p{
+    margin-left: 20px;
+}
+/* juice outer  */
+.juice-outer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.juice-outer .juice-left{
+      height: 100vh;
+      width: 25%;
+}
+.div1{
+    height: 400px;
+    width: 90%;
+    border:1px solid gray;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+    }
+    .div1 h3,h4{
+        padding: 10px 10px;
+
+    }
+    .div1 input,span
+    {
+        margin-left: 10px;
+    }
+
+.juice-outer .juice-right{
+    height: 100vh;
+    width: 70%;
+
+}
+.juice-outer .juice-right p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: rgb(18,18,18);
+}
+.juice-outer .juice-right .product-short{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+.product-short div:nth-child(1)
+{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+.product-short div:nth-child(2)
+{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.product-short div:nth-child(2) select{
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    outline: none;
+}
+

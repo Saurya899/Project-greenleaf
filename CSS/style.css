@@ -532,3 +532,34 @@ background-color: #EBDBCE;
     color: white;
     transition: 0.3s;
 }
+ /* .banner */
+ .banner{
+  height: 300px;
+  width: 94;
+  background: url(../Asset/Images/imgi_38_cms-banner1.png);
+  margin: 20px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+ }
+.banner h1, p{
+  text-align: center;
+  color: white;
+}
+.banner button{
+  padding: 15px 20px;
+  background-color: #F4C340;
+  border-radius:6px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
